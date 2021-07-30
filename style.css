@@ -1,0 +1,125 @@
+#banner{
+	width: 100%;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#everythinginbannerDiv{
+	display: flex;
+
+}
+
+#logo{
+	position: absolute;
+	width: 10%;
+}
+
+h1{
+	position: absolute;
+	top: 35%;
+	left: 20%;
+	font-size: 400%;
+	text-shadow: 8px 8px 8px darkgray;
+}
+
+body{
+	font-family: 'Radley', serif;
+}
+
+#cardsDiv p{
+	color: black;
+	font-size: 200%;
+	padding: 1%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.cards{
+	width:332px;
+	height:219px;
+	border-radius: 25px;
+	box-shadow: 5px 10px 10px #888888;
+
+}
+
+.cards:hover{
+	opacity: 0.6;
+}
+
+
+#cardsDiv{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+#Topsights{
+	padding-left: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-size: 250%;
+}
+
+#listDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: white;
+	background-color: black;
+	margin-top: 2%;
+	padding-left:10% ;
+	padding-right: 10%;
+}
+
+.listDiv2{
+	justify-content: space-between;
+	padding: 2% 10%;
+}
+
+#listDiv3{
+	display: flex;
+}
+
+#Topsights, #cardsDiv p{
+	text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+	h1{
+		color: #e9967a;
+	}
+}
+
+@media screen and (max-width: 500px){
+	h1{
+		top: 5%;
+	}
+}
+
+.colPics{
+	width: 100%;
+	border-radius: 25px;
+}
+
+.row{
+	margin-top: 5%;
+}
+
+button > a{
+	color: white;
+}
+
+
+
+
+
+
+
